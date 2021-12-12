@@ -11,9 +11,9 @@ const loginErrorMsg = document.getElementById("login-error-msg");
      if (email ==="admin@gmail.com" && password === "pass") {
          location.href="admin/";
      } else if (email ==="teacher@gmail.com" && password === "pass") {
-         location.href="/teacher";
+         location.href="teacher/";
      } else if (email ==="intern@gmail.com" && password === "pass"){
-         location.href="/intern";
+         location.href="intern/";
      }else{
          alert("Incorrect email or password.");
      }
